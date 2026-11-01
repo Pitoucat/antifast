@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Antifast Bot — Conditions d'utilisation / Terms of Service</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#1d2330; --muted:#5b6475; --accent:#5865f2; --line:#e3e6ec; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#12151c; --card:#1b1f2a; --text:#e8ebf2; --muted:#9aa3b5; --accent:#8b95ff; --line:#2a3040; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  header { display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:8px; }
+  h1 { font-size:1.7rem; margin:0; }
+  h2 { font-size:1.15rem; margin:28px 0 6px; color:var(--accent); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:8px 24px 24px; }
+  .muted { color:var(--muted); font-size:.9rem; }
+  nav button { background:var(--card); color:var(--text); border:1px solid var(--line); padding:6px 14px; border-radius:8px; cursor:pointer; font:inherit; }
+  nav button[aria-pressed="true"] { background:var(--accent); color:#fff; border-color:var(--accent); }
+  a { color:var(--accent); }
+  code { background:var(--bg); padding:1px 6px; border-radius:4px; }
+  ul { padding-left:1.2rem; } li { margin:4px 0; }
+  [lang="en"].doc { display:none; }
+  body.en [lang="fr"].doc { display:none; } body.en [lang="en"].doc { display:block; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>🛡️ Antifast Bot</h1>
+  <nav>
+    <button id="bfr" aria-pressed="true">Français</button>
+    <button id="ben" aria-pressed="false">English</button>
+  </nav>
+</header>
+
+<div class="card">
+
+<!-- ===================== FRANÇAIS ===================== -->
+<section class="doc" lang="fr">
+  <h2>Conditions d'utilisation</h2>
+  <p class="muted">Dernière mise à jour : 1er novembre 2026</p>
+  <p>En ajoutant Antifast Bot à un serveur ou en l'utilisant, tu acceptes les conditions ci-dessous. Si tu n'es pas d'accord, retire le bot de ton serveur.</p>
+
+  <h2>1. Le service</h2>
+  <p>Antifast Bot est un bot Discord de modération et d'anti-raid : il surveille certaines actions (spam, liens, suppressions de salons ou de rôles, bannissements en masse, etc.) et peut appliquer des sanctions automatiques (mute, expulsion, retrait des rôles) aux membres qui ne sont pas whitelistés.</p>
+
+  <h2>2. Responsabilité du serveur</h2>
+  <ul>
+    <li>Le propriétaire du serveur et les membres whitelistés Owner sont responsables de la configuration (modules, limites, sanctions, whitelist) et de ses conséquences.</li>
+    <li>Tu dois respecter les <a href="https://discord.com/terms">Conditions d'utilisation de Discord</a> et les <a href="https://discord.com/guidelines">Règles de la communauté</a>.</li>
+    <li>Le bot doit disposer des permissions nécessaires (par exemple « Voir les journaux d'audit ») pour fonctionner.</li>
+  </ul>
+
+  <h2>3. Utilisation interdite</h2>
+  <ul>
+    <li>Utiliser le bot pour harceler, discriminer ou nuire à des personnes, ou pour toute activité illégale.</li>
+    <li>Chercher à contourner, saturer ou détourner le bot, ou à accéder à des données qui ne sont pas les tiennes.</li>
+    <li>Utiliser la blacklist globale ou les sanctions de manière abusive.</li>
+  </ul>
+
+  <h2>4. Absence de garantie</h2>
+  <p>Le bot est fourni « en l'état », sans garantie de disponibilité ni de résultat. Aucune protection ne garantit une sécurité totale : certaines actions ne peuvent pas être empêchées (par exemple un compte whitelisté compromis, ou un bot privé de ses permissions). Le service peut être interrompu pour maintenance ou en cas de panne.</p>
+
+  <h2>5. Limitation de responsabilité</h2>
+  <p>Dans les limites permises par la loi, l'exploitant du bot n'est pas responsable des dommages indirects, des pertes de données, ni des sanctions appliquées selon la configuration choisie par le serveur. Pense à faire des sauvegardes de ta configuration (<code>/config backup</code>).</p>
+
+  <h2>6. Suspension</h2>
+  <p>L'accès au bot peut être limité ou retiré, pour un serveur ou un utilisateur, en cas d'abus ou de non-respect de ces conditions.</p>
+
+  <h2>7. Données</h2>
+  <p>L'utilisation des données est décrite dans la <a href="index.html">Politique de confidentialité</a>.</p>
+
+  <h2>8. Modifications</h2>
+  <p>Ces conditions peuvent évoluer. La date de dernière mise à jour est indiquée en haut de cette page. Continuer à utiliser le bot après une modification vaut acceptation.</p>
+
+  <h2>9. Contact</h2>
+  <p>Pour toute question : <strong>Discord : dashuhq</strong></p>
+</section>
+
+<!-- ===================== ENGLISH ===================== -->
+<section class="doc" lang="en">
+  <h2>Terms of Service</h2>
+  <p class="muted">Last updated: November 1, 2026</p>
+  <p>By adding Antifast Bot to a server or using it, you agree to the terms below. If you do not agree, remove the bot from your server.</p>
+
+  <h2>1. The service</h2>
+  <p>Antifast Bot is a Discord moderation and anti-raid bot: it monitors certain actions (spam, links, channel or role deletions, mass bans, etc.) and can apply automatic sanctions (mute, kick, strip roles) to members who are not whitelisted.</p>
+
+  <h2>2. Server responsibility</h2>
+  <ul>
+    <li>The server owner and Owner-whitelisted members are responsible for the configuration (modules, limits, sanctions, whitelist) and its consequences.</li>
+    <li>You must comply with the <a href="https://discord.com/terms">Discord Terms of Service</a> and <a href="https://discord.com/guidelines">Community Guidelines</a>.</li>
+    <li>The bot must have the permissions it needs (for example "View Audit Log") to work.</li>
+  </ul>
+
+  <h2>3. Prohibited use</h2>
+  <ul>
+    <li>Using the bot to harass, discriminate against or harm people, or for any illegal activity.</li>
+    <li>Trying to bypass, overload or hijack the bot, or to access data that is not yours.</li>
+    <li>Abusing the global blacklist or the sanctions.</li>
+  </ul>
+
+  <h2>4. No warranty</h2>
+  <p>The bot is provided "as is", with no guarantee of availability or results. No protection guarantees complete security: some actions cannot be prevented (for example a compromised whitelisted account, or a bot stripped of its permissions). The service may be interrupted for maintenance or in case of failure.</p>
+
+  <h2>5. Limitation of liability</h2>
+  <p>To the extent permitted by law, the bot operator is not liable for indirect damages, data loss, or sanctions applied according to the configuration chosen by the server. Remember to back up your configuration (<code>/config backup</code>).</p>
+
+  <h2>6. Suspension</h2>
+  <p>Access to the bot may be limited or removed, for a server or a user, in case of abuse or breach of these terms.</p>
+
+  <h2>7. Data</h2>
+  <p>Data use is described in the <a href="index.html">Privacy Policy</a>.</p>
+
+  <h2>8. Changes</h2>
+  <p>These terms may change. The last update date is shown at the top of this page. Continuing to use the bot after a change means you accept it.</p>
+
+  <h2>9. Contact</h2>
+  <p>For any question: <strong>Discord: dashuhq</strong></p>
+</section>
+
+</div>
+<p class="muted" style="text-align:center;margin-top:20px">Antifast Bot is not affiliated with Discord Inc.</p>
+</main>
+<script>
+  (function () {
+    var fr = document.getElementById('bfr'), en = document.getElementById('ben');
+    function set(l) {
+      document.body.classList.toggle('en', l === 'en');
+      document.documentElement.lang = l;
+      fr.setAttribute('aria-pressed', String(l === 'fr')); en.setAttribute('aria-pressed', String(l === 'en'));
+      try { localStorage.setItem('lang', l); } catch (e) {}
+    }
+    fr.onclick = function () { set('fr'); }; en.onclick = function () { set('en'); };
+    var l = 'fr';
+    try { l = localStorage.getItem('lang') || ((navigator.language || 'fr').slice(0, 2) === 'fr' ? 'fr' : 'en'); } catch (e) {}
+    set(l === 'en' ? 'en' : 'fr');
+  })();
+</script>
+</body>
+</html>
